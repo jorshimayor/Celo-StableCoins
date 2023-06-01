@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server --baseDir=./frontend"
   },
   "keywords": [],
   "author": "",
@@ -17,9 +18,12 @@
     "ethereum-waffle": "^4.0.10",
     "ethers": "^5.7.2",
     "hardhat": "^2.14.0",
-    "hardhat-waffle": "^0.0.1-security"
+    "hardhat-waffle": "^0.0.1-security",
+    "lite-server": "^2.6.1"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.9.0"
+    "@openzeppelin/contracts": "^4.9.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
   }
 }
